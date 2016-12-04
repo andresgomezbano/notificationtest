@@ -70,10 +70,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		var OneSignal = window.OneSignal || [];
 		OneSignal.push(["init", {
 			appId: "ea9bb943-4eb1-41a4-a9c9-acd84febd135",
-			autoRegister: false, /* Set to true to automatically prompt visitors */
+			autoRegister: true, /* Set to true to automatically prompt visitors */
 			subdomainName: 'bit3000',
 			notifyButton: {
-				enable: true /* Set to false to hide */
+				enable: false /* Set to false to hide */
 			}
 		}]);
 	</script>
